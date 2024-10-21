@@ -20,12 +20,12 @@ function SidebarComponents() {
         onClick={({ key }) => navigate(key)}
         items={[
           {
-            key: "/daskboard-admin",
+            key: "/admin",
             icon: <AppstoreOutlined />,
             label: "Daskboard",
           },
           {
-            key: "/display-account",
+            key: "/admin-all-courses",
             icon: <UserOutlined />,
             label: "User Management",
           },

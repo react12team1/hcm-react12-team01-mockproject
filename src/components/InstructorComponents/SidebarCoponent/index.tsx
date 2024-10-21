@@ -26,7 +26,7 @@ function SidebarComponents() {
             label: "Dashboard",
           },
           {
-            key: "/manage-course",
+            key: "/instructor-all-courses",
             icon: <BookOutlined />,
             label: "Manage Course",
           },
