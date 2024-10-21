@@ -41,100 +41,85 @@ const publicRoute: RouteConfig[] = [
     path: "/",
     component: Home,
     layout: DefaultLayout,
-    role: [RoleEnum.Guest]
-
+    role: [RoleEnum.Guest],
   },
   {
     path: "/login",
     component: Login,
     layout: null,
-    role: [RoleEnum.Guest]
-
-
+    role: [RoleEnum.Guest],
   },
   {
     path: "/manage-course",
     component: ManageCourse,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/instructor-payout",
     component: PayoutInstructorPage,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/:courseId",
     component: ViewDetailCourse,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/:sessionId",
     component: ViewDetailSession,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/:lessonId",
     component: ViewDetailLesson,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/sales-history",
     component: SalesHistory,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/review",
     component: Review,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/purchase-courses",
     component: PurchaseLog,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/instructor",
     component: InstructorDashboard,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/course-log-instructor",
     component: InstructorCourseLog,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/all",
     component: All,
     layout: DefaultLayout,
-    role: [RoleEnum.Guest]
-
+    role: [RoleEnum.Guest],
   },
   {
     path: "/subcription-instructor",
     component: InstructorSub,
     layout: InstructorLayout,
-    role: [RoleEnum.Instructor]
-
-
+    role: [RoleEnum.Instructor],
   },
   {
     path: "/student",
@@ -213,19 +198,19 @@ const publicRoute: RouteConfig[] = [
     path: "/pending-courses",
     component: PendingCourses,
     layout: AdminLayout,
-    role: [RoleEnum.Admin],
+    role: [RoleEnum.Guest],
   },
   {
     path: "/courses-log",
     component: CoursesLog,
     layout: AdminLayout,
-    role: [RoleEnum.Admin],
+    role: [RoleEnum.Guest],
   },
   {
     path: "/pruchase-courses",
     component: PurchaseLog,
     layout: AdminLayout,
-    role: [RoleEnum.Admin],
+    role: [RoleEnum.Guest],
   },
   {
     path: "/unauthorized",
