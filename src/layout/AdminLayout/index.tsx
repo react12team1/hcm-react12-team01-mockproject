@@ -4,7 +4,8 @@ import { ReactNode, useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SidebarComponents from "../../components/AdminComponents/SidebarCoponent";
-import Loading from "../../components/Loading"; // Import Loading component
+import Loading from "../../components/Loading";
+
 
 
 const { Content, Sider } = Layout;

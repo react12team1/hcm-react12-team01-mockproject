@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const LoadingScreen: React.FC = () => {
+const Loading: React.FC = () => {
   return (
     <div className="loading-container">
       <div className="sky">
@@ -56,4 +56,4 @@ const LoadingScreen: React.FC = () => {
   );
 };
 
-export default LoadingScreen;
+export default Loading;
