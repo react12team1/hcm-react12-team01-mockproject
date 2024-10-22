@@ -13,7 +13,21 @@ import instructorRoutes from "./routes/sub/instructorRoutes";
 import studentRoutes from "./routes/sub/studentRoutes";
 // import { CartProvider } from "./context/CartContext";
 //==============================
-
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
+//test
 const App = () => {
   // const protectedRoutes = useProtectedRoutes();
   const router = createBrowserRouter([
@@ -27,11 +41,11 @@ const App = () => {
   return (
     <>
       <Suspense fallback='loading...'>
-        
+
         <RouterProvider router={router} />
-          
+
       </Suspense>
-      
+
     </>
   );
 };
